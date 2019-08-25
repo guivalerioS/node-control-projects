@@ -1,7 +1,9 @@
 # node-control-projects
  Creating an application from scratch using Express.  This application will be used to store projects and their tasks
 
-Routes
+Routes:
+
+
 POST / projects: The route should be given id and title within the body of registering a new project within an array in the following format: {id: "1", title: "New Project", tasks: []};.
 
 GET / projects: Route that lists all projects and their tasks;
